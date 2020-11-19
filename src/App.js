@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./components/HomePage";
@@ -12,7 +11,7 @@ import "./App.css";
 function App({location}) {
   return (
     <div className="App">
-            <Footer />
+            
       <div>
         <BrowserRouter>
           <Switch>
