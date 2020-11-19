@@ -1,14 +1,15 @@
+
 .homepage {
-/* display: flex; */
-background-image: url('./images/mars_01.svg');
-/* position: absolute; */
-/* justify-content: center; */
-height: 100vh;
-width: 100vw;
-background-attachment: fixed;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-background-color: #18384F;
-/* overflow-y: scroll; */
+height: 400px;
+width: 400px;
+margin: auto;
+
 }
+
+.homepage-container {
+    display: flex;
+    align-items: center;
+    background-color: #18384F;
+    height: 100vh;
+}
+

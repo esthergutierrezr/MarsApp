@@ -2,14 +2,14 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import "./Homepage.css";
-import Mars from "./images/mars_01.svg";
+import Mars from "./images/mars_01.jpg";
 
 
 
 const planet= (
-    <> <img src={Mars} alt='Planet' useMap="#image-map" />
+    <> <img className="homepage" src={Mars} alt='Planet' useMap="#image-map" />
     <map name="image-map">
-        <Link to="/Spaceship"> <area className='planet' target="" alt="Planet" title=""  coords="2256,2179,962" shape="circle" /></Link>
+        <Link to="/Spaceship"> <area  target="" alt="Planet"  coords="296,288,132" shape="circle" /></Link>
     </map> </>
 );
 
@@ -17,7 +17,7 @@ const planet= (
 
 function HomePage() {
     return (
-        <div className="homepage">
+        <div className="homepage-container">
             {planet}
         </div>
     )
