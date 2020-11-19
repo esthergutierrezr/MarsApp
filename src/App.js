@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Spaceship from "./components/Spaceship";
 import Land from "./components/Land";
@@ -16,6 +16,7 @@ function App() {
             <Route path="/spaceship" component={Spaceship} />
             <Route path="/spaceship/land" component={Land} />
             <Route path="/spaceship/land/weather" component={Weather} />
+            <Redirect to="/" />
           </Switch>
         </BrowserRouter>
       </div>
