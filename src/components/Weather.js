@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Footer from "./Footer"
 import WeatherDetails from "./WeatherDetails";
 
 class Weather extends React.Component {
@@ -38,7 +39,9 @@ class Weather extends React.Component {
           {this.state.weatherData.map((data, index) => (
             <WeatherDetails {...data} key={index} />
           ))}
+
         </div>
+        <Footer />
       </div>
     );
   }

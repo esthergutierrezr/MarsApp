@@ -1,30 +1,38 @@
 
 import React from "react";
 import "./footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 
 function Footer (){
     return(
         <div className="main-footer">
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-md-3">
-                        <h4>About Us</h4>
-                        <ul className="list-unstyled">
-                            <li>Project</li>
-                            <li>Our Team</li>
-
-                        </ul>
-                    </div>
-                    <div className="col-md-3">
+                <div className="row justify-content-around">
+                    <div className="col-4">
                         <h4>Contact Us</h4>
                         <ul className="list-unstyled">
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>Twitter</li>
+                        <div className="social-container">
+                            <div className="icons">
+                            <a href="https://www.facebook.com" className="facebook social ">
+                                <FontAwesomeIcon icon={faFacebook} size="2x" />
+                            </a>
+                            <a href="https://www.twitter.com" className="twitter social">
+                                <FontAwesomeIcon icon={faTwitter} size="2x" />
+                            </a>
+                            <a href="https://www.instagram.com" className="instagram social">
+                                <FontAwesomeIcon icon={faInstagram} size="2x" />
+                            </a>
+                            </div>
+                        </div> 
                         </ul>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-4">
                         <h4>Mars Weather</h4>
                         <ul className="list-unstyled">
                             <li><a href="https://mars.nasa.gov/insight/">About Mars</a></li>
