@@ -14,8 +14,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/spaceship" component={Spaceship} />
-            <Route path="/spaceship/land" component={Land} />
-            <Route path="/spaceship/land/weather" component={Weather} />
+            <Route path="/land" component={Land} />
+            <Route path="/weather" component={Weather} />
             <Redirect to="/" />
           </Switch>
         </BrowserRouter>
