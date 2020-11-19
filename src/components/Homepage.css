@@ -1,0 +1,10 @@
+.homepage {
+/* display: flex; */
+background-image: url('./images/mars_01.svg');
+/* position: absolute; */
+/* justify-content: center; */
+height: 100vh;
+width: 100vw;
+background-size: cover;
+background-repeat: no-repeat;
+}
