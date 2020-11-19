@@ -17,5 +17,3 @@ function Land() {
 }
 
 export default Land;
-
-
