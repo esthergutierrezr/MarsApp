@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Land.css";
 import { Link } from "react-router-dom";
@@ -17,3 +18,6 @@ function Land() {
 }
 
 export default Land;
+
+
+
