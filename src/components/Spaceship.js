@@ -21,7 +21,7 @@ function Spaceship(props) {
         <img src={Image} className="cockpit" />
       </Link>
       <button className="revert-button" onClick={prepareForTakeOff}>Launch</button>
-      <audio controls autoPlay className="audio-button">
+      <audio controls className="audio-button">
         <source src={Audio} type="audio/mpeg"></source>
       </audio>
     </div>
