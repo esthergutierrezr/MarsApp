@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import WeatherDetails from "./WeatherDetails";
 
 class Weather extends React.Component {
   state = {
@@ -35,7 +36,7 @@ class Weather extends React.Component {
 
         <div>
           {this.state.weatherData.map((data, index) => (
-            <h1 key={index}>{data.First_UTC}</h1>
+            <WeatherDetails {...data} key={index} />
           ))}
         </div>
       </div>
