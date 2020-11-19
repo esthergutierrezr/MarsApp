@@ -27,14 +27,13 @@ function Footer (){
                     <div className="col-md-3">
                         <h4>Mars Weather</h4>
                         <ul className="list-unstyled">
-                            <li>About Mars</li>
-                            <li>About Mars Weather</li>
-                            <li>About the colonization</li>
+                            <li><a href="https://mars.nasa.gov/insight/">About Mars</a></li>
+                            <li><a href="https://mars.nasa.gov/insight/weather/">About Mars Weather</a></li>
+                            <li><a href="https://www.spacex.com/human-spaceflight/mars/">About the colonization</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 }
