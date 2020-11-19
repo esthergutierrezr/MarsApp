@@ -1,7 +1,6 @@
-
 import React from "react";
 import Footer from "./components/Footer";
-import"bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Spaceship from "./components/Spaceship";
@@ -25,7 +24,6 @@ function App({location}) {
           </Switch>
         </BrowserRouter>
       </div>
-
     </div>
   );
 }
