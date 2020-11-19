@@ -1,3 +1,4 @@
+
 // import { render } from '@testing-library/react';
 import React from 'react';
 import {Link} from "react-router-dom";
@@ -18,10 +19,20 @@ const planet= (
 function HomePage() {
     return (
         <div className="homepage-container">
-            {planet}
+
+import React from 'react'
+
+function HomePage() {
+    return (
+        <div>
+            
+
         </div>
     )
 }
 
 
+
 export default HomePage;
+
+
