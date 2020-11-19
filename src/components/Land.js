@@ -9,7 +9,7 @@ function Land() {
       <p>Hello</p>
       {/* <img src={landImage} class="landImage" /> */}
 
-      <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+      <Link to="/weather" style={{ textDecoration: "none", color: "inherit" }}>
         <button className="homePageLink">Weather</button>
       </Link>
     </div>
