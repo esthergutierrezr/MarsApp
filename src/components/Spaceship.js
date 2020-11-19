@@ -1,20 +1,32 @@
 import React from "react";
 import Image from "./images/shuttle-cockpit-space-rocket.jpg";
-import Audio from "./images/Rocket countdown and blastoff.wav";
+import Audio from "./images/Rocket-launch.mp3";
 import { Link } from "react-router-dom";
-import './Spaceship.css'
+import "./Spaceship.css";
 
-function Spaceship() {
+
+function Spaceship(props) {
+
+  const prepareForTakeOff = () => {
+    const audio = document.querySelector("audio");
+    audio.volume = 0.2;
+    audio.play();
+    setTimeout(() => {
+        props.history.push('/land');
+      },15000 );
+  }
   return (
     <div>
-      <Link to={"/spaceship/land"}>
+      <Link to={"/land"}>
         <img src={Image} className="cockpit" />
       </Link>
-      <audio className="audio-element">
-        <source src={Audio}></source>
+      <button onClick={prepareForTakeOff}>Redirect User</button>
+      <audio controls autoPlay>
+        <source src={Audio} type="audio/mpeg"></source>
       </audio>
     </div>
   );
 }
+
 
 export default Spaceship;
