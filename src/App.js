@@ -9,10 +9,11 @@ import Land from "./components/Land";
 import Weather from "./components/Weather";
 import "./App.css";
 
-function App() {
+
+function App({location}) {
   return (
     <div className="App">
-      <Footer />
+            <Footer />
       <div>
         <BrowserRouter>
           <Switch>
