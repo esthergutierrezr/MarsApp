@@ -28,5 +28,4 @@ function Spaceship(props) {
   );
 }
 
-
 export default Spaceship;
