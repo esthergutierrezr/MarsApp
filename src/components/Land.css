@@ -1,22 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
 .landImage {
-    background-image: url("./images/landImage.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
-    min-width: 1024px;
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-   }
-   .homePageLink {
-   }
-   @media screen and (max-width: 800px) {
-    .landImage {
-     left: 50%;
-     margin-left: -512px;
-    }
-   }
+  background-image: url("./images/landImage.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  font-family: "Goldman", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 50px;
+}
+h2 {
+  font-size: 5vw;
+}
+.title {
+  display: flex;
+
+  padding-top: 100px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+#myElement {
+  font-size: 2vw;
+  display: flex;
+}
+.button {
+  padding-top: 18px;
+}
+.homePageLink {
+  background-color: rgb(46, 45, 45);
+  border: none;
+  color: rgb(197, 194, 194);
+  border-radius: 4px;
+  font-size: 1.5vw;
+  display: flex;
+}
+@media screen and (max-width: 870px) {
+  .landImage {
+    left: 50%;
+    margin-left: -512px;
+    align-items: center;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .landImage {
+    padding-right: 120px;
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .landImage {
+    padding-right: 170px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .landImage {
+    padding-right: 260px;
+  }
+}
