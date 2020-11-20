@@ -41,14 +41,14 @@ class Weather extends React.Component {
       <div className="weather">
         <div className="weather-flexbox">
           <div className="info">
-            <h1>Latest Weather at Elysium Platania</h1>
-            <p>
+            <h1 className="Title">Latest Weather at Elysium Platania</h1>
+            <p className="parragraph">
               {" "}
               InSight is talking daily weather measure "temperatura, wind,
               pressure" on the surface of Mars at Elysium Platania, a flat,
               smooth plain near Mars' equator.{" "}
             </p>
-            <h4>Sol 265 | August 25</h4>
+            <h4>Sol 697 | November 11th</h4>
             <div>
               <p>High: 15° F | C</p>
               <p>Low: -115° F | C</p>
