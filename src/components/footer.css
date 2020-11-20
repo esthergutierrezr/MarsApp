@@ -1,11 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .main-footer {
   background-color: black;
-  position: fixed;
   bottom: 0;
+  position: absolute;
   width: 100%;
 }
-.container {
-  margin-top: 50px;
+
+.row {
+  padding: 20px;
 }
 .row h4 {
   text-align: center;
@@ -14,4 +21,12 @@
 .row li {
   text-align: center;
   color: grey;
+}
+.row a {
+  text-align: center;
+  color: grey;
+}
+.icons {
+  padding: 10px;
+
 }

@@ -55,6 +55,7 @@ class Weather extends React.Component {
             </div>
           </div>
 
+
           <div>
             {this.state.weatherData.map((data, index) => (
               <WeatherDetails {...data} key={index} />
@@ -62,8 +63,9 @@ class Weather extends React.Component {
           </div>
         </div>
         <footer>
-          <Footer height="10vh" />
+          <Footer />
         </footer>
+
       </div>
     );
   }

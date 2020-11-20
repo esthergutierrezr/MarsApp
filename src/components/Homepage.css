@@ -1,0 +1,15 @@
+
+.homepage {
+height: 400px;
+width: 400px;
+margin: auto;
+
+}
+
+.homepage-container {
+    display: flex;
+    align-items: center;
+    background-color: #18384F;
+    height: 100vh;
+}
+
