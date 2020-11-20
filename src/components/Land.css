@@ -16,9 +16,6 @@
   top: 0;
 }
 
-.homePageLink {
-}
-
 @media screen and (max-width: 800px) {
   .landImage {
     left: 50%;

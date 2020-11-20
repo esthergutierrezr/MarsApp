@@ -1,22 +1,17 @@
-.{
-    margin: 0%;
-    padding:0;
+.main-footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-
-.main-footer{
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.container {
+  margin-top: 50px;
 }
-.container{
-    margin-top: 50px;
+.row h4 {
+  text-align: center;
+  color: white;
 }
-.row h4{
-    text-align: center;
-    color: white;
-}
-.row li{
-   text-align: center;
-   color: grey;
+.row li {
+  text-align: center;
+  color: grey;
 }
