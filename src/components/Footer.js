@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +6,7 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
 
 
 function Footer (){
@@ -42,8 +42,9 @@ function Footer (){
                     </div>
                 </div>
             </div>
-        </div>
-    );
+
+        
+  );
 }
 
 export default Footer;

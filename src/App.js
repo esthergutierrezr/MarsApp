@@ -1,7 +1,3 @@
-
-
-
-
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
@@ -18,7 +14,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+
+      
+
        <div>
+
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -28,7 +28,11 @@ function App() {
             <Redirect to="/" />
           </Switch>
         </BrowserRouter>
+
+      </div>
+
      
+
 
     </div>
   );

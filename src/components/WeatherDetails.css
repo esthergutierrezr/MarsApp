@@ -1,0 +1,22 @@
+.card {
+  display: inline-block;
+  display: space-between;
+  bottom: 0;
+  background-color: rgba(131, 130, 130, 0.26);
+  opacity: 1;
+  width: 15vw;
+  height: 20vh;
+  color: white;
+}
+.card h5 {
+  font-weight: bold;
+}
+
+.line {
+  border: 2px solid white;
+}
+
+.card p {
+  margin-top: 15px;
+  padding: 0;
+}
