@@ -18,6 +18,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+       <div>
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={HomePage} />
