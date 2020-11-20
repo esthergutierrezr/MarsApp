@@ -18,11 +18,6 @@ import {BrowserRouter} from "react-router-dom";
 function App({location}) {
   return (
     <div className="App">
-
-   
-     
-
-            
       <div>
         <BrowserRouter>
           <Switch>
