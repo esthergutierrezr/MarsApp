@@ -1,10 +1,12 @@
 * {
+  
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 .main-footer {
+  font-size: 8px;
   background-color: black;
   bottom: 0;
   position: absolute;
@@ -12,6 +14,7 @@
 }
 
 .row {
+  font-size: 10px;
   padding: 20px;
 }
 .row h4 {

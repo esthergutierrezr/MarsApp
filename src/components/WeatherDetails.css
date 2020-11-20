@@ -5,7 +5,7 @@
   background-color: rgba(131, 130, 130, 0.26);
   opacity: 1;
   width: 15vw;
-  height: 20vh;
+  height: auto;
   color: white;
 }
 .card h5 {

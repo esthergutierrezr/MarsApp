@@ -63,7 +63,7 @@ class Weather extends React.Component {
           </div>
         </div>
         <footer>
-          <Footer />
+          <Footer height="10vh"/>
         </footer>
 
       </div>

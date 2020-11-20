@@ -12,12 +12,9 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
-
-    "moment": "^2.29.1",
-
     "image-map": "^2.0.1",
     "ityped": "^1.0.3",
-
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-audio-player": "^0.14.0",
     "react-dom": "^17.0.1",
