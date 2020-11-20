@@ -3,23 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "@qiuz/react-image-map": "^1.0.8",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
-
-    "image-map": "^2.0.1",
-
     "bootstrap": "^4.5.3",
+    "image-map": "^2.0.1",
     "ityped": "^1.0.3",
-
     "react": "^17.0.1",
     "react-audio-player": "^0.14.0",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "reshake": "^1.2.1",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

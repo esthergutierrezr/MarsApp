@@ -11,14 +11,14 @@ import Land from "./components/Land";
 import Weather from "./components/Weather";
 
 import "./App.css";
-import {BrowserRouter} from "react-router-dom";
 
 
 
-function App({location}) {
+
+function App() {
   return (
     <div className="App">
-      <div>
+       <div>
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -28,7 +28,7 @@ function App({location}) {
             <Redirect to="/" />
           </Switch>
         </BrowserRouter>
-      </div>
+     
 
     </div>
   );
