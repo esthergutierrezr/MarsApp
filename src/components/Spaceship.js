@@ -32,7 +32,7 @@ function Spaceship(props) {
         fixedStop={false}
         freez={isPageFrozen}
       >
-        <img src={Image} alt="image" className="cockpit" />
+        <img src={Image} alt="space" className="cockpit" />
 
         <button className="revert-button" onClick={prepareForTakeOff}>
           Launch
